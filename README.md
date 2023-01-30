@@ -4,6 +4,7 @@
 - Install `pipenv` from your Os's package manager.
 - Activate your virtual env and spawn a shell using `pipenv shell`.
 - Install requirements using `pipenv install`.
+- Alternatively: Install python dependencies inside your virtualenv using `pip install -r requirements.txt`.
 - Apply initial database migrations using `./manage.py migrate`.
 - A park with 4 bays and 4 customers will be added with the initial migration. 
 - Run the preliminary test suite using `./manage.py test`.
